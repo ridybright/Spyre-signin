@@ -1,0 +1,168 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font: 14px/1.5 Arial, Helvetica, sans-serif;
+}
+.side-image{
+    width: 50%;
+    margin: auto;
+}
+
+.side-image{
+    background-image: url('../images/spyre-image.jpg');
+    height: 660px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.box-danger{
+    width: 25%;
+    min-height: 20gitpx;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    bottom: 570px;
+}
+
+#box-text{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding:  15px;  
+}
+
+.side-form{
+    width: 50%;
+    margin: auto;
+}
+
+.spyre-form{
+    width: 80%;
+    margin: auto;
+}
+
+.form-block{
+    width: 100%;
+    padding: 10px;
+
+}
+
+.form-block input, .form-block [type="submit"]{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box
+}
+
+
+
+.form-block [type="input"]{
+    margin-bottom: 5px !important;
+}
+
+.pull-left{
+    float: left;
+}
+
+
+.pull-right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.margin-align{
+    margin-left: 8px !important;
+}
+.wor{
+    margin-left: -30px;
+}
+
+
+.forget-txt{
+    margin-right: -10px;
+}
+
+
+.btn{
+    background-color: red;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    display: inline;
+    font-size: 16px;
+}
+
+.btn-primarydark{
+    width: 40%;
+    background-color: #00122d;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    padding: 11px 10px;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.btn-primary{
+    width: 40%;
+    background-color: #2869ff;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    padding: 11px 10px;
+    display: inline;
+    margin-right: -10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-danger{
+    color: red;
+}
+
+/*/*Media Query*/
+@media(max-width: 768px){
+    .side-image{
+        background-image: none;
+    }
+    body{
+        margin-top: -650px;
+    }
+    .side-image,
+    .side-form,
+    .btn-primarydark,
+    .btn-primary{
+        float: none;
+    }
+    h1{
+        font-size: 18px;
+    }
+
+    .forget-txt{
+        margin-left: -30px;
+    }
+
+    .sm-align{
+        margin-left: -15px;
+    }
+
+    .sm-margin-align{
+        margin-left: 9px;
+    }
+    .btn-primarydark, .btn-primary{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
